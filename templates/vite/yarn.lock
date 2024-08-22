@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10
 
 "@babel/runtime@npm:^7.13.10":
@@ -1278,107 +1278,94 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tldraw/editor@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/editor@npm:2.0.0-beta.4"
+"@tldraw/editor@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/editor@npm:2.4.3"
   dependencies:
-    "@tldraw/state": "npm:2.0.0-beta.4"
-    "@tldraw/store": "npm:2.0.0-beta.4"
-    "@tldraw/tlschema": "npm:2.0.0-beta.4"
-    "@tldraw/utils": "npm:2.0.0-beta.4"
-    "@tldraw/validate": "npm:2.0.0-beta.4"
-    "@types/core-js": "npm:^2.5.5"
-    "@use-gesture/react": "npm:^10.2.27"
-    classnames: "npm:^2.3.2"
-    core-js: "npm:^3.31.1"
-    eventemitter3: "npm:^4.0.7"
-    idb: "npm:^7.1.1"
-    is-plain-object: "npm:^5.0.0"
-    lodash.throttle: "npm:^4.1.1"
-    lodash.uniq: "npm:^4.5.0"
-    nanoid: "npm:4.0.2"
+    "@tldraw/state": 2.4.3
+    "@tldraw/state-react": 2.4.3
+    "@tldraw/store": 2.4.3
+    "@tldraw/tlschema": 2.4.3
+    "@tldraw/utils": 2.4.3
+    "@tldraw/validate": 2.4.3
+    "@types/core-js": ^2.5.5
+    "@use-gesture/react": ^10.2.27
+    classnames: ^2.3.2
+    core-js: ^3.31.1
+    eventemitter3: ^4.0.7
+    idb: ^7.1.1
+    is-plain-object: ^5.0.0
+    nanoid: 4.0.2
   peerDependencies:
     react: ^18
     react-dom: ^18
-  checksum: a9ef62fc61ba0901d55a6393ac9c1824d98249fec992390c6f14f32f46eba320edc9343f894089f5effb40436eaef29f585304a924577156047ad663ace60824
+  checksum: 8/53d91cc736fccf46ad674343cbbcafcf52211992f4d7e59b8c4d966fc75460aa3bedc5404806be184a5205789581d74f45943749d5c0c3cbcbd0dee5c4820079
   languageName: node
   linkType: hard
 
-"@tldraw/state@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/state@npm:2.0.0-beta.4"
+"@tldraw/state-react@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/state-react@npm:2.4.3"
+  dependencies:
+    "@tldraw/state": 2.4.3
   peerDependencies:
     react: ^18
-  checksum: 004491766be744c14416f03a6d22a39dfa2d1b6fced5546a8f35ef960fa20e11f001a7657c7c0def6335410724ce315f141f9b4c118bdb2d4c09e7001a54fa8a
+  checksum: 8/397ee7aa5d166795dba9c116469e09657c10868f8885db865936a335f68285b472ca02a07313b91bf19083778fc8dcaf6f3f3eba526578310ab70db144847b5d
   languageName: node
   linkType: hard
 
-"@tldraw/store@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/store@npm:2.0.0-beta.4"
+"@tldraw/state@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/state@npm:2.4.3"
+  checksum: 8/b435c666d7a2731c331e032cc5fcb9fb246e734eaeeefd3ec92c8adf46c29c04aa41a4146446810acbde234c5f6296f3c97cb8a2920a6820eeae464a30167880
+  languageName: node
+  linkType: hard
+
+"@tldraw/store@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/store@npm:2.4.3"
   dependencies:
-    "@tldraw/state": "npm:2.0.0-beta.4"
-    "@tldraw/utils": "npm:2.0.0-beta.4"
-    lodash.isequal: "npm:^4.5.0"
-    nanoid: "npm:4.0.2"
+    "@tldraw/state": 2.4.3
+    "@tldraw/utils": 2.4.3
+    lodash.isequal: ^4.5.0
+    nanoid: 4.0.2
   peerDependencies:
     react: ^18
-  checksum: 7de4869dbdd0ce089be72048ae1f0da48621eebbf47b55849eb5f601650df084aa919ea445ad23b1c451dcd38cbdee2b7cb033503f2234efabcef0a4f1e04bb5
+  checksum: 8/9359e20be0911fda0a1126fd80ef67d17cae9799862d415fa7d67312e1e54be7b39f8b31dded0a0bcc236d402d1dc228fdc13d277bedd0b6ddd130f2d34df4ab
   languageName: node
   linkType: hard
 
-"@tldraw/tldraw@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/tldraw@npm:2.0.0-beta.4"
+"@tldraw/tlschema@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/tlschema@npm:2.4.3"
   dependencies:
-    "@radix-ui/react-alert-dialog": "npm:^1.0.5"
-    "@radix-ui/react-context-menu": "npm:^2.1.5"
-    "@radix-ui/react-dialog": "npm:^1.0.5"
-    "@radix-ui/react-dropdown-menu": "npm:^2.0.6"
-    "@radix-ui/react-popover": "npm:^1.0.7"
-    "@radix-ui/react-select": "npm:^1.2.0"
-    "@radix-ui/react-slider": "npm:^1.1.0"
-    "@radix-ui/react-toast": "npm:^1.1.1"
-    "@tldraw/editor": "npm:2.0.0-beta.4"
-    canvas-size: "npm:^1.2.6"
-    classnames: "npm:^2.3.2"
-    hotkeys-js: "npm:^3.11.2"
-    lz-string: "npm:^1.4.4"
+    "@tldraw/state": 2.4.3
+    "@tldraw/store": 2.4.3
+    "@tldraw/utils": 2.4.3
+    "@tldraw/validate": 2.4.3
+    nanoid: 4.0.2
   peerDependencies:
     react: ^18
-    react-dom: ^18
-  checksum: 28ddfe82b4683d55ffff74649f10619d3e1f4e47135652cca7fd649b4f863f1420d4d922c98659046cd45da893b17427eb9b93b3982eef3f91e44ad6ff44c951
+  checksum: 8/c7e101fbb8755a50067d0e8dd26793825f261f9d2be39b53b336f987cd2c7af9174a6db1323a23abbec05a0b7d4369b428b30bdd00e058adfaabc030dda3f63f
   languageName: node
   linkType: hard
 
-"@tldraw/tlschema@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/tlschema@npm:2.0.0-beta.4"
+"@tldraw/utils@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/utils@npm:2.4.3"
   dependencies:
-    "@tldraw/state": "npm:2.0.0-beta.4"
-    "@tldraw/store": "npm:2.0.0-beta.4"
-    "@tldraw/utils": "npm:2.0.0-beta.4"
-    "@tldraw/validate": "npm:2.0.0-beta.4"
-    nanoid: "npm:4.0.2"
-  peerDependencies:
-    react: ^18
-  checksum: c20fefb2f6c9787676d58bd8a1ca0003afd62a0c8b53e82e72f7a8abab1d86bf8aa6660d16bcaff4311833861af4b263ce3ceae8933148fb709ccdca31c719a7
+    lodash.throttle: ^4.1.1
+    lodash.uniq: ^4.5.0
+  checksum: 8/a33a1647662ae07593b4b490b54a82235bbf5db17e7d9a714cd7143ec67f39a5e96e2ba64c8b216ac8a0ebaaab05c6c79e0086924c0c95df28420acc5925796b
   languageName: node
   linkType: hard
 
-"@tldraw/utils@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/utils@npm:2.0.0-beta.4"
-  checksum: 37616fb0cc29e8b13ac03154b94e5d30c1ede048a9e55399d8fef0e391d8091fc8b63f451c727a18b9ad097f021d427301f81c43596729dc79d317d92313fe7e
-  languageName: node
-  linkType: hard
-
-"@tldraw/validate@npm:2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "@tldraw/validate@npm:2.0.0-beta.4"
+"@tldraw/validate@npm:2.4.3":
+  version: 2.4.3
+  resolution: "@tldraw/validate@npm:2.4.3"
   dependencies:
-    "@tldraw/utils": "npm:2.0.0-beta.4"
-  checksum: 449875205055f8a672f2f38c8d6c6f0040b891a12ad4b648f77aed324b0d4a19bea0085c8642622d49d30fb9c9717445a5b2044b2aa438d3029a8af2d7aaf1e7
+    "@tldraw/utils": 2.4.3
+  checksum: 8/1fbb7fdf51d4b2134fd68f21f18cd93739722bd1f17eb69de19c73a9f1190135b4e288741cb22a98e2e3c55fb5f84928873468d4081d3b3fb5ea5ba53d98de36
   languageName: node
   linkType: hard
 
@@ -2307,9 +2294,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -3457,21 +3444,47 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tldraw-vite-example@workspace:."
   dependencies:
-    "@tldraw/tldraw": "npm:2.0.0-beta.4"
-    "@types/react": "npm:^18.0.37"
-    "@types/react-dom": "npm:^18.0.11"
-    "@typescript-eslint/eslint-plugin": "npm:^5.59.0"
-    "@typescript-eslint/parser": "npm:^5.59.0"
-    "@vitejs/plugin-react-swc": "npm:^3.0.0"
-    eslint: "npm:^8.38.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.3.4"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.0.2"
-    vite: "npm:^4.3.9"
+    "@types/react": ^18.0.37
+    "@types/react-dom": ^18.0.11
+    "@typescript-eslint/eslint-plugin": ^5.59.0
+    "@typescript-eslint/parser": ^5.59.0
+    "@vitejs/plugin-react-swc": ^3.0.0
+    eslint: ^8.38.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.3.4
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    tldraw: 2.4.3
+    typescript: ^5.0.2
+    vite: ^4.3.9
   languageName: unknown
   linkType: soft
+
+"tldraw@npm:2.4.3":
+  version: 2.4.3
+  resolution: "tldraw@npm:2.4.3"
+  dependencies:
+    "@radix-ui/react-alert-dialog": ^1.0.5
+    "@radix-ui/react-context-menu": ^2.1.5
+    "@radix-ui/react-dialog": ^1.0.5
+    "@radix-ui/react-dropdown-menu": ^2.0.6
+    "@radix-ui/react-popover": ^1.0.7
+    "@radix-ui/react-select": ^1.2.0
+    "@radix-ui/react-slider": ^1.1.0
+    "@radix-ui/react-toast": ^1.1.1
+    "@tldraw/editor": 2.4.3
+    "@tldraw/store": 2.4.3
+    canvas-size: ^1.2.6
+    classnames: ^2.3.2
+    hotkeys-js: ^3.11.2
+    idb: ^7.1.1
+    lz-string: ^1.4.4
+  peerDependencies:
+    react: ^18
+    react-dom: ^18
+  checksum: 8/59a4477b67b4717f055b44b86e6f85688df9c1743d4d246574f02cf2832996b2023c262fcc68a043dbf3f664aae2269885649884c92e5638a7899e4eeebe1cb8
+  languageName: node
+  linkType: hard
 
 "to-regex-range@npm:^5.0.1":
   version: 5.0.1
@@ -3533,13 +3546,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.0.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>":
   version: 5.1.3
-  resolution: "typescript@patch:typescript@npm%3A5.1.3#optional!builtin<compat/typescript>::version=5.1.3&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=d73830"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: dade91ba4155d0e9eb58a83cfec0d8271fefedc87b106443c396f9961aa8b231f8585d283b126a8373897aff7823da7874ce5c0b3b18a548b51ffb474f01565e
+  checksum: 8/32a25b2e128a4616f999d4ee502aabb1525d5647bc8955e6edf05d7fbc53af8aa98252e2f6ba80bcedfc0260c982b885f3c09cfac8bb65d2924f3133ad1e1e62
   languageName: node
   linkType: hard
 
